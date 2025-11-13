@@ -30,6 +30,10 @@ it will open two windows showing the preprocessing nine-grid image and the origi
 <p align="center">
     <img src="point_selection_order.png" alt="Point Selection Order" width="400"/>
 </p>
-3. Press any key to exit the program after the transformation is applied.After the transformation, the warped image will be displayed with transparency support.
+
+3. If the selected points are insufficient, press any key to skip the current image.
+
+4. To terminate the process at any time, press the `ESC` key.
+
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
