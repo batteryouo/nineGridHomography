@@ -27,9 +27,9 @@ This is a project that demonstrates the use of homography transformations on a n
     python homography.py
     it will open two windows showing the preprocessing nine-grid image and the original image.
 2. Follow the on-screen instructions to select points on the image.(The figure below shows the order of point selection)
-
-![point_selection_order](point_selection_order.png)
-
+<p align="center">
+    <img src="point_selection_order.png" alt="Point Selection Order" width="400"/>
+</p>
 3. Press any key to exit the program after the transformation is applied.After the transformation, the warped image will be displayed with transparency support.
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
