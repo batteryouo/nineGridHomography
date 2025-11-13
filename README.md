@@ -35,5 +35,7 @@ it will open two windows showing the preprocessing nine-grid image and the origi
 
 4. To terminate the process at any time, press the `ESC` key.
 
+5. The processed images will be saved in the `image_rect_proc` directory.
+
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
