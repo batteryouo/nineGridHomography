@@ -44,10 +44,10 @@ def preprocess_image(image, param=None):
 
 def create_random_params():
     blur_ksize = 2 * np.random.randint(1, 10) + 1
-    brightness = np.random.uniform(0.6, 1.4)
+    brightness = np.random.uniform(0.5, 1.5)
     color_shift = (np.random.randint(-5, 5), np.random.randint(-5, 5), np.random.randint(-5, 5))
     distortion_strength = np.random.uniform(0.0001, 0.001)
-    noise_amount = np.random.uniform(0.01, 0.1)
+    noise_amount = np.random.uniform(0.1, 0.2)
     jpeg_quality = np.random.randint(30, 50)
     
     param = {
