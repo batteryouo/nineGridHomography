@@ -26,6 +26,7 @@ This is a project that demonstrates the use of homography transformations on a n
    ```bash
     python homography.py
 it will open two windows showing the preprocessing nine-grid image and the original image.
+
 2. Follow the on-screen instructions to select points on the image.(The figure below shows the order of point selection)
 <p align="center">
     <img src="point_selection_order.png" alt="Point Selection Order" width="400"/>
